@@ -1,0 +1,189 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 16px;
+color: white;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100hv;
+}
+.bas{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin:50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0, 0, 0.1) ;
+}
+.bas .sol{
+    position: relative;
+    padding:40px;
+    background-color:darkcyan;
+}
+.profilim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid darkgray;
+}
+.profilim .foto{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+
+}
+.profilim .foto img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profilim h2{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 18px;
+}
+.profilim h2 span{
+
+font-size: 10px;
+font-weight: 300;
+}
+.iletisim{
+    padding-top: 40px;
+}
+.iletisim ul{
+    position: relative;
+}
+.iletisim ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.iletisim ul li .resim{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aquamarine;
+}
+.iletisim ul li span{
+    font-weight: 300;
+
+}
+
+.sevye li{
+    margin-bottom: 15px;
+
+}
+.sevye li h5{
+    color: aquamarine;
+    font-weight: 500;
+
+}
+.sevye li h4{
+    font-weight: 300;
+}
+.dil .lang{
+    color:white;
+}
+.dil .yuzde{
+
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: lightslategray;
+    display: block;
+    margin-top: 5px;
+
+}
+.dil .yuzde div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: aqua;
+}
+.ilte{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+.bas .sag{
+    position: relative;
+    padding:40px;
+    background-color:white;
+}
+.bas .sag .ben .benim{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.bas .sag .ben p{
+    color:darkslategray;
+}
+.bas .sag .ben p h3{
+    color: black;
+}
+.ben{
+    margin-bottom: 50px;
+}
+.lang{
+    color: black;
+    margin-bottom: 30px;
+    margin-top:30px;
+    font-size: 30px;
+}
+.kutu{
+    color:black;
+}
+.prog .kutu{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.prog .kutu h4{
+    text-transform: uppercase;
+    color: darkblue;
+    font-weight: 500;
+
+}
+.prog .kutu .cizgi{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color:antiquewhite;
+}
+.prog .kutu .cizgi div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    background-color: aquamarine;
+}
