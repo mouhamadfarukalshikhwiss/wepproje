@@ -1,0 +1,87 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+html{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 16px;
+    color: white;
+}
+
+body{
+    background-image: url(foto/resim.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.menu {
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 25px;
+    color: gold;
+    letter-spacing: 3px;
+    cursor:pointer;
+}
+div{
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right:3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div ul li {
+list-style-type: none;
+display: inline-block;
+letter-spacing: 1px;
+margin: 7px 7px;
+}
+div ul li a{
+    color: gold;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+div ul li a:hover{
+    color: red;
+}
+.btn{
+    text-decoration: none;
+    background-color:cadetblue;
+    color:gold;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: 0.4s;
+    border: 2px solid transparent;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid crimson;
+}
+.yaz{
+    margin-top: 15%;
+    margin-left: 3%;
+    color: gold;
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+h4{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
