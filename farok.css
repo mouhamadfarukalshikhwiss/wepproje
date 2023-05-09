@@ -10,7 +10,6 @@ html{
     font-size: 16px;
     color: white;
 }
-
 body{
     background-image: url(foto/resim.jpg);
     background-size: cover;
@@ -44,6 +43,7 @@ list-style-type: none;
 display: inline-block;
 letter-spacing: 1px;
 margin: 7px 7px;
+
 }
 div ul li a{
     color: gold;
