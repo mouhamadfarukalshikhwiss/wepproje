@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+ body{
+       background-image: url(foto/sehirim.avif);
+      background-size: cover;
+     background-position: top center;
+     position: relative;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.sanat{
+    border: solid white;
+}
+ h3{
+    color: darkblue;
+    text-align: center;
+    margin-bottom:2%;
+    margin-top: 2%;
+}
+.sanat p{
+    height: auto;
+    width: 100%;
+    background-color:aquamarine;
+}
+.miras{
+    border: solid white;
+}
+.miras p{
+    height: auto;
+    width: 100%;
+    background-color:aquamarine;
+}
+.antik{
+    border: solid white;
+}
+.antik p{
+    height: auto;
+    width: 100%;
+    background-color:aquamarine;
+}
