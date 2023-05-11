@@ -1,0 +1,23 @@
+body{
+    background-color: darkblue;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+.hed{
+    background-color:gainsboro;
+    height: 100vh;
+}
+.container{
+    background-color: aquamarine;
+    border: solid 10px darkgoldenrod;
+
+}
+.container h4{
+   color:brown;
+}
+img{
+    float: right;
+}
+
+
