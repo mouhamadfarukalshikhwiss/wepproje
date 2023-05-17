@@ -1,0 +1,16 @@
+.hed{
+ background-color: cornflowerblue;
+height: 100vh;
+}
+.form{
+    text-align: center;
+    background-color:cornsilk;
+    border-radius: 10px;
+
+}
+#cinsiyet{
+  width: 190px;
+}
+#dosya{
+  margin-left: 100px;
+}
