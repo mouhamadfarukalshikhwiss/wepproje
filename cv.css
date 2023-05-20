@@ -8,6 +8,7 @@ font-family: 'Frank Ruhl Libre', serif;
 font-size: 16px;
 color: white;
 }
+
 body{
     background-color: lightblue;
     display: flex;
@@ -187,3 +188,8 @@ font-weight: 300;
     height:100%;
     background-color: aquamarine;
 }
+
+
+
+
+

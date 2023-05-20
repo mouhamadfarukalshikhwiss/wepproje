@@ -4,13 +4,7 @@
     box-sizing: border-box;
     font-family: 'Frank Ruhl Libre', serif;
 }
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
  body{
-       background-image: url(foto/sehirim.avif);
       background-size: cover;
      background-position: top center;
      position: relative;
@@ -23,9 +17,11 @@ h1{
     height: auto;
     margin-top: 20px;
     margin-bottom: 40px;
+
 }
 .sanat{
-    border: solid white;
+    border:5px solid deepskyblue;
+    background-color: aquamarine;
 }
  h3{
     color: darkblue;
@@ -36,21 +32,70 @@ h1{
 .sanat p{
     height: auto;
     width: 100%;
-    background-color:aquamarine;
 }
 .miras{
-    border: solid white;
+    border: 5px solid deepskyblue;
+    background-color: aquamarine;
 }
 .miras p{
     height: auto;
     width: 100%;
-    background-color:aquamarine;
 }
 .antik{
-    border: solid white;
+    border:5px solid deepskyblue;
+    background-color: aquamarine;
 }
 .antik p{
     height: auto;
     width: 100%;
-    background-color:aquamarine;
+    background-color:aqua;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 7px 7px;
+    
+    }
+    header ul li a{
+        color: gold;
+        text-decoration: none;
+        transition: 0.4s;
+    
+    }
+    div ul li a:hover{
+        color: red;
+    }
+    .btn{
+        text-decoration: none;
+        background-color:cadetblue;
+        color:gold;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 30px;
+        transition: 0.4s;
+        border: 2px solid transparent;
+    }
+    .btn:hover{
+        background-color: transparent;
+        border: 2px solid crimson;
+    }
+
+    
+h2{
+    font-size: 20px;
+    color: gold;
+    letter-spacing: 3px;
+    cursor:pointer;
+    margin-left: 3px;
+
+}
+header{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right:3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

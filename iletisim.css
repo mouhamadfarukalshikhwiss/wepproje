@@ -14,3 +14,54 @@ height: 100vh;
 #dosya{
   margin-left: 100px;
 }
+header{
+  background-color: cornflowerblue;
+}
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 7px 7px;
+  
+  }
+  header ul li a{
+      color: gold;
+      text-decoration: none;
+      transition: 0.4s;
+  
+  }
+  div ul li a:hover{
+      color: red;
+  }
+  .btn{
+      text-decoration: none;
+      background-color:cadetblue;
+      color:gold;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 30px;
+      transition: 0.4s;
+      border: 2px solid transparent;
+  }
+  .btn:hover{
+      background-color: transparent;
+      border: 2px solid crimson;
+  }
+
+  
+h2{
+  font-size: 20px;
+  color: gold;
+  letter-spacing: 3px;
+  cursor:pointer;
+  margin-left: 3px;
+
+}
+header{
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right:3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
