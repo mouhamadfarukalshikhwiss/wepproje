@@ -27,10 +27,6 @@ header ul li {
     margin: 7px 7px;
     
     }
-    header{
-        background-color:gainsboro;    
-
-    }
     header ul li a{
         color: gold;
         text-decoration: none;
@@ -44,6 +40,7 @@ header ul li {
         text-decoration: none;
         background-color:cadetblue;
         color:gold;
+        float: right;
         font-weight: bold;
         padding: 5px 10px;
         border-radius: 30px;
